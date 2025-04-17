@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ag.css">
+
+</head>
+
+<body>
+
+
+    <div class="division__1">
+
+        <div class="checkout__box">
+            <button id="checkout__btn">Check Out</button>
+        </div>
+
+
+        <div class="checkin__box">
+            <button id="checkin__btn">Check In</button>
+        </div>
+
+    </div>
+
+
+
+    <h2>CHECKOUT FORM</h1>
+        <div class="division__2">
+          
+            <div class="search-area">
+
+                <label for="text">Search by Employee Name</label>
+                <input type="text">
+                <button>Search</button>
+                <button>Back</button>
+    
+    
+            </div>
+         
+            <form class="checkout__form">
+                <table>
+                    <tr class="check-row">
+                        <td class="check-heads">Employee Code :</td>
+                        <td><input class="input-txt" type="text" name="emp_info" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Employee Name :</td>
+                        <td><input class="input-txt" type="text" name="emp_info" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Checkout Reason :</td>
+                        <td><input class="input-txt" type="text" name="chkout_reason" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Purpose :</td>
+                        <td><input class="input-txt" type="text" name="purpose" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Checkout Time :</td>
+                        <td><input class="input-txt" type="text" name="chkout_time" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Expected Check-in Time :</td>
+                        <td><input class="input-txt" type="text" name="checkin_time" required></td>
+                    </tr>
+                    <tr class="check-row">
+                        <td class="check-heads">Return :</td>
+                        <td>
+                            <label><input type="radio" name="return" value="yes" required> Yes</label>
+                            <label style="margin-left: 10px;"><input type="radio" name="return" value="no"> No</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button id="btn-submit" type="submit">Submit</button></td>
+                    </tr>
+                </table>
+
+             
+                    
+            
+            </form>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="division__2"></div>
+
+
+
+
+</body>
+
+</html>
