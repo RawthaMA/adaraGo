@@ -4,8 +4,9 @@
 }
 .main-div {
     display: flex;
-    margin-top: 40%;
-    display: none;
+    margin-top: 10%;
+    margin-left: 3%;
+ 
 }
 
 #checkout__btn,
@@ -18,14 +19,16 @@
     border: none;
     border-radius: 10px;
 }
+.checkout__box{
+    margin-right:5%;
+}
 
 
 .checkout__box,
 .checkin__box {
     background-color: #d1ffd3;
-    width: 200px;
-    height: 150px;
-    margin: 5px;
+    width: 50%;
+    height: 20%;
     border-radius: 15px;
 }
 
@@ -34,7 +37,7 @@
 .head{
     color: #2b2d54;
     border-bottom:3px solid #f5f5f7;
-    padding-left: 50px;
+    padding-left: 17%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
@@ -83,8 +86,8 @@
 .seacrch_btn-area{
     display: block;
     padding-left: 17%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 
 }
@@ -92,13 +95,15 @@
 /* search area ends here */
 
 .checkin__div {
-    width: 100%;
-    height: 100%;
-    background-color:#e3e4fc;
+    margin: 5%;
+    width: 90%;
+    height: 80%;
+    background-color:#c7c7ff;
+    display: none;
 }
 
 .checkout__form {
-    background-color:beige;
+    background-color:#ededfc;
     padding: 15px;
 }
 .check-heads{
@@ -108,19 +113,26 @@
 }
 
 .check-row{
-    margin-top: 10px;
+    margin-top: -2px;
 }
 .search-area{
     padding: 10px;
 }
 
 .input-txt{
-    border: 1px solid cornflowerblue;
+    /* border: 1px solid cornflowerblue; */
+    border: none;
     margin-top:5px;
-    border-radius: 8px;
+    border-radius: 14px;
     width: 87%;
     padding: 5px;
+    padding-left: 20px;
+
 }
+.input-txt:focus {
+    outline-color:cornflowerblue; /* Change this to any color you want */
+    outline-width: 2px; /* Optional: Adjust the thickness of the outline */
+  }
 #btn-submit{
     background-color:#2b2d54;
     width: 80%;
@@ -139,8 +151,56 @@
 
   /* checkin divs css ends here */
 
+  .checkout__div {
+    margin:5%;
+    width: 90%;
+    height: 80%;
+    background-color:#c7c7ff;
+    display: none;
+}
 
+.head1{
+    color: #2b2d54;
+    border-bottom:3px solid #f5f5f7;
+    padding-left: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.checkin__form {
+    background-color:#ededfc;
+    padding: 15px;
+}
+.checkin-row{
+    margin-top: -2px;
+}
+.check-in{
+    background-color:#2b2d54;
+    width: 40%;
+    color: white;
+    padding:12px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/* checkin div ends here */
+
+
+ /* media query media query media query media query media query media query media query media query media query media query */
 @media screen and (min-width:600px) {
+    .head{
+        padding-left: 25%;
+    }
+    .searcher{
+        margin-left: 5%;
+    }
+    .checkin__div {
+        margin: auto;
+        width: 65%;
+        height: 90%;
+    }
 
     #checkout__btn,
     #checkin__btn {
@@ -151,5 +211,108 @@
     .division__1 {
         margin: 20%;
     }
+    .check-row{
+        margin-left: 5%;
+    }
+
+    #btn-submit{
+        margin-left: 10%;
+        margin-top:35px;
+    }
+    .checkout__form{
+        margin-top: 15px;
+        height:80%px;
+
+    }
+    .seacrch_btn-area{
+        margin-bottom :-10px;;
+    }
+
+    .check-row{
+        margin-top: 5px;
+    }
+    /* checkin div ends here */
+   
+    .checkout__div {
+        margin:18%;
+        width: 65%;
+        height: 80%;
+        display: none;
+    }
+}
+
+/* media query for 600px+ ends here */
+
+@media screen and (min-width:1000px) {
+    .head{
+        padding-left: 28%;
+    }
+    .searcher{
+        margin-left: 5%;
+    }
+    .checkin__div {
+        margin: auto;
+        width: 42%;
+        height: 100%;
+    }
+
+    #checkout__btn,
+    #checkin__btn {
+        padding: 15px;
+
+    }
+
+    .division__1 {
+        margin: 20%;
+    }
+    .check-row{
+        margin-left: 5%;
+        margin-top: 5px;
+
+    }
+
+    #btn-submit{
+        width:50%;
+        margin-left: 25%;
+        margin-top:35px;
+    }
+    .checkout__form{
+        margin-top: 15px;
+        height:510px;
+
+    }
+    .checkout__div {
+        margin:20%;
+        margin-top: 120px;
+        width: 55%;
+        height: 80%;
+        display: none;
+    }
+    
+ 
+  
+}
+
+/* media query for 600px+ ends here */
+
+@media screen and (min-width:1500px) {
+    .checkin__div {
+        margin: auto;
+        width: 35%;
+        height: 100%;
+    }
+    .checkout__form{
+        margin-top: 15px;
+        height:510px;
+
+    }
+
+    .check-row{
+        margin-top: 6px;
+    }
+    .main-div{
+        margin-left: -10px;
+    }
 
 }
+
