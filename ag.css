@@ -42,7 +42,7 @@
     color: #2b2d54;
     border-bottom:3px solid #f5f5f7;
     font-size: 20px;
-    padding-left: 23%;
+    padding-left: 12%;
     padding-top: 10px;
     padding-bottom: 5px;
     margin: 0;
@@ -117,7 +117,7 @@
     padding: 15px;
 }
 .check-heads{
-    font-size:14px;
+    font-size:10px;
     color:#2b2d54;
     font-weight: 500;
 }
@@ -232,7 +232,7 @@
  }
 @media screen and (min-width:600px) {
     .head{
-        padding-left: 25%;
+        padding-left: 30%;
         font-size: 25px;
 
     }
@@ -240,8 +240,9 @@
         margin-left: 5%;
     }
     .checkin__div {
+        margin-top: 30%;
         margin: auto;
-        width: 65%;
+        width: 75%;
         height: 90%;
     }
 
@@ -259,7 +260,6 @@
     }
 
     #btn-submit{
-        margin-left: 10%;
         margin-top:35px;
     }
     .checkout__form{
@@ -320,15 +320,17 @@
 
 
     }
+    .check-heads{
+        font-size: 16px;
+    }
 
     #btn-submit{
         width:50%;
-        margin-left: 25%;
         margin-top:15px;
     }
     .checkout__form{
         margin-top: 15px;
-        height:400px;
+        height:330px;
 
     }
     .checkout__div {
@@ -350,17 +352,20 @@
 @media screen and (min-width:1500px) {
     .checkin__div {
         margin: auto;
-        width: 35%;
+        width: 45%;
         height: 100%;
     }
     .checkout__form{
         margin-top: 15px;
-        height:510px;
+        height:330px;
 
     }
 
     .check-row{
         margin-top: 7px;
+    }
+    .check-heads{
+        font-size: 16px;
     }
     .main-div{
         margin-left: -10px;

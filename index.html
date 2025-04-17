@@ -36,70 +36,75 @@
     </div>
 
 
-
+<br>
     <div class="checkin__div">
-        <h2 class="head">CHECKOUT FORM</h1>
-
-            <div class="search-area">
-                <input class="searcher" placeholder="Search by Employee Name" type="text">
-
-                <div class="seacrch_btn-area">
-                    <button class="search-area__btn btn1">Search</button>
-                    <button class="search-area__btn btn2">Back</button>
-                </div>
+        <h2 class="head">CHECKOUT FORM</h2>
+    
+        <div class="search-area">
+            <input class="searcher" placeholder="Search by Employee Name" type="text">
+    
+            <div class="seacrch_btn-area">
+                <button class="search-area__btn btn1">Search</button>
+                <button class="search-area__btn btn2">Back</button>
             </div>
-
-            <form class="checkout__form">
-
-                <div class="check-row">
-                    <label class="check-heads">Employee Code :</label><br>
-                    <input class="input-txt" type="text" name="emp_info" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Employee Name :</label><br>
-                    <input class="input-txt" type="text" name="emp_info" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Checkout Reason :</label><br>
-                    <input class="input-txt" type="text" name="chkout_reason" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Purpose :</label><br>
-                    <input class="input-txt" type="text" name="purpose" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Checkout Time :</label><br>
-                    <input style="background-color: white;" class="input-txt" type="time" name="chkout_time" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Expected Check-in Time :</label><br>
-                    <input style="background-color: white;" class="input-txt" type="time" name="checkin_time" required>
-                </div>
-
-                <div class="check-row">
-                    <label class="check-heads">Return :</label><br>
-                    <select style="background-color: white;" class="input-txt" name="return" required>
-                        <option value=""> -- Select -- </option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-
-                <button id="btn-submit" type="submit">Submit</button>
-
-            </form>
-
-
+        </div>
+    
+        <form class="checkout__form">
+            <table style="width: 100%; border-collapse: collapse;">
+                <colgroup>
+                    <col style="width: 30%;">
+                    <col style="width: 70%;">
+                </colgroup>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Employee Code :</label></td>
+                    <td><input class="input-txt" type="text" name="emp_info" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Employee Name :</label></td>
+                    <td><input class="input-txt" type="text" name="emp_info" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Checkout Reason :</label></td>
+                    <td><input class="input-txt" type="text" name="chkout_reason" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Purpose :</label></td>
+                    <td><input class="input-txt" type="text" name="purpose" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Checkout Time :</label></td>
+                    <td><input style="background-color: white;" class="input-txt" type="time" name="chkout_time" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Expected Check-in Time :</label></td>
+                    <td><input style="background-color: white;" class="input-txt" type="time" name="checkin_time" required></td>
+                </tr>
+    
+                <tr class="check-row">
+                    <td class="check-heads"><label>Return :</label></td>
+                    <td>
+                        <select style="background-color: white;width:95%;" class="input-txt" name="return" required>
+                            <option value=""> -- Select -- </option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2" style="text-align: center; padding-top: 10px;">
+                        <button id="btn-submit" type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
-
-
-
-
 
 
     <div class="checkout__div">
