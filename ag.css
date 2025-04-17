@@ -5,12 +5,12 @@
 .main-div {
     display: flex;
     margin-top: 10%;
-    margin-left: 3%;
  
 }
 
 #checkout__btn,
 #checkin__btn {
+
     margin: 25%;
     padding: 10px;
     width: 50%;
@@ -43,7 +43,7 @@
     margin: 0;
 }
 .searcher{
-    border: 1px solid darkblue;
+    border: 1px solid cornflowerblue;
     margin-top:5px;
     border-radius: 20px;
     font-size: 12px;
@@ -56,6 +56,10 @@
     background-color: white;
 
 }
+.searcher:focus {
+    outline-color:darkblue; /* Change this to any color you want */
+    outline-width: 2px; /* Optional: Adjust the thickness of the outline */
+  }
 .search-area__btn{
     background-color:#2b2d54;
     width: 36%;
@@ -100,6 +104,7 @@
     height: 80%;
     background-color:#c7c7ff;
     display: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 .checkout__form {
@@ -143,6 +148,10 @@
     margin: 10px;
     margin-top: 20px;
 }
+#btn-submit:hover{
+    background-color:#484a66;
+
+}
 
 .my-table {
     border-collapse: separate; 
@@ -156,6 +165,7 @@
     width: 90%;
     height: 80%;
     background-color:#c7c7ff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     display: none;
 }
 
@@ -184,7 +194,25 @@
     margin: 10px;
     margin-top: 20px;
 }
+.check-in:hover{
+    background-color:#484a66;
 
+}
+.input-txt1{
+    /* border: 1px solid cornflowerblue; */
+    border: none;
+    margin-top:5px;
+    border-radius: 20px;
+    width: 87%;
+    height: 22px;
+    padding: 5px;
+    padding-left: 20px;
+
+}
+.input-txt1:focus {
+    outline-color:cornflowerblue; /* Change this to any color you want */
+    outline-width: 2px; /* Optional: Adjust the thickness of the outline */
+  }
 /* checkin div ends here */
 
 
