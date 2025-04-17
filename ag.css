@@ -117,15 +117,14 @@
     font-weight: 500;
 }
 
-.check-row{
-    margin-top: -2px;
-}
+
 .search-area{
     padding: 10px;
 }
 
 .input-txt{
     /* border: 1px solid cornflowerblue; */
+    background-color:white;
     border: none;
     margin-top:5px;
     border-radius: 14px;
@@ -210,8 +209,8 @@
 
 }
 .input-txt1:focus {
-    outline-color:cornflowerblue; /* Change this to any color you want */
-    outline-width: 2px; /* Optional: Adjust the thickness of the outline */
+    outline-color:cornflowerblue;
+    outline-width: 2px; 
   }
 /* checkin div ends here */
 
@@ -253,7 +252,7 @@
 
     }
     .seacrch_btn-area{
-        margin-bottom :-10px;;
+        margin-bottom :-6px;
     }
 
     .check-row{
