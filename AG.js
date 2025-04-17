@@ -9,28 +9,28 @@ let checkout_div = document.querySelector('.checkout__div')
 let back = document.getElementById('back')
 
 
-checkout_btn.addEventListener("click", function(){
-    main_div.style.display ='none'
+checkout_btn.addEventListener("click", function () {
+    main_div.style.display = 'none'
 
-checkin_div.style.display ='block'
-
-})
-
-btn2.addEventListener("click" , function(){
-    main_div.style.display ='flex'
-
-    checkin_div.style.display ='none'
-})
-
-
-checkin_btn.addEventListener("click" , function(){
-        main_div.style.display ='none'
-        checkout_div.style.display ='block'
+    checkin_div.style.display = 'block'
 
 })
 
-back.addEventListener("click" , function(){
-    main_div.style.display ='flex'
+btn2.addEventListener("click", function () {
+    main_div.style.display = 'flex'
 
-    checkout_div.style.display ='none'
+    checkin_div.style.display = 'none'
+})
+
+
+checkin_btn.addEventListener("click", function () {
+    main_div.style.display = 'none'
+    checkout_div.style.display = 'block'
+
+})
+
+back.addEventListener("click", function () {
+    main_div.style.display = 'flex'
+
+    checkout_div.style.display = 'none'
 })

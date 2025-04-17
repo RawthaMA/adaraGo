@@ -117,14 +117,16 @@
     font-weight: 500;
 }
 
-
+.check-row{
+margin-top: 10px;
+}
 .search-area{
     padding: 10px;
 }
 
 .input-txt{
     /* border: 1px solid cornflowerblue; */
-    background-color:white;
+    background-color: wh;
     border: none;
     margin-top:5px;
     border-radius: 14px;
@@ -252,11 +254,11 @@
 
     }
     .seacrch_btn-area{
-        margin-bottom :-6px;
+        margin-bottom :-10px;;
     }
 
     .check-row{
-        margin-top: 5px;
+        margin-top: 8px;
     }
     /* checkin div ends here */
    
@@ -294,7 +296,7 @@
     }
     .check-row{
         margin-left: 5%;
-        margin-top: 5px;
+        margin-top: 8px;
 
     }
 
@@ -335,7 +337,7 @@
     }
 
     .check-row{
-        margin-top: 6px;
+        margin-top: 8px;
     }
     .main-div{
         margin-left: -10px;
