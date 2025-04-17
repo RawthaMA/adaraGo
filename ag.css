@@ -134,7 +134,7 @@
     background-color: wh;
     border: none;
     margin-top:5px;
-    border-radius: 14px;
+    border-radius: 7px;
     width: 87%;
     padding: 5px;
     padding-left: 20px;
@@ -301,8 +301,8 @@
         margin-left: 5%;
     }
     .checkin__div {
-        margin: auto;
-        width: 52%;
+        margin-top:-20px;
+        width: 70%;
         height: 100%;
     }
 
@@ -318,12 +318,16 @@
     .check-row{
         margin-left: 5%;
         margin-top: -5px;
-         
+        padding: 20px;
+
 
 
     }
     .check-heads{
         font-size: 16px;
+        padding: 9px;
+
+
     }
 
     #btn-submit{
@@ -332,7 +336,7 @@
     }
     .checkout__form{
         margin-top: 15px;
-        height:330px;
+        height:350px;
 
     }
     .checkout__div {
@@ -344,6 +348,9 @@
     }
     .main-div{
         margin-top: 10%;
+    }
+    .input-txt{
+        height: 22px;
     }
  
   
