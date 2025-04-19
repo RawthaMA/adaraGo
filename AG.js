@@ -36,19 +36,12 @@ back.addEventListener("click", function () {
 })
 let a =window.innerWidth
 let b =window.innerHeight
-let size = document.getElementById('size')
-size.addEventListener("click", function(){
-    let width = document.createElement('p')
-    width.textContent = a
-    document.body.append(width)
-    alert(a)
+let hw=document.querySelector('.size')
+let size = document.createElement('p')
+size.textContent = a
+hw.append(size)
 
-    let height = document.createElement('p')
-    height.textContent = b
-    document.body.append(height)
-    alert(b)
-
-
-    
-})
+let size2 = document.createElement('p')
+size2.textContent = b
+hw.append(size2)
 
