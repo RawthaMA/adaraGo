@@ -147,7 +147,7 @@
     background-color:#2b2d54;
     width: 80%;
     color: white;
-    padding:7px;
+    padding:10px;
     border: none;
     border-radius: 6px;
     margin: 10px;
@@ -272,6 +272,7 @@
 }
     #btn-submit{
         margin-top:35px;
+        width: 60%;
     }
     .checkout__form{
         margin-top: 45px;
