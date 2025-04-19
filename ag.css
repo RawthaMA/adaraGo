@@ -234,6 +234,8 @@
     .head{
         padding-left: 30%;
         font-size: 25px;
+        color: purple;
+
 
     }
     .searcher{
@@ -298,6 +300,8 @@
     .head{
         padding-left: 32%;
         font-size: 20px;
+        color: blue;
+
     }
     .searcher{
         margin-left: 5%;
