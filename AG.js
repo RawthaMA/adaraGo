@@ -41,10 +41,13 @@ size.addEventListener("click", function(){
     let width = document.createElement('p')
     width.textContent = a
     document.body.append(width)
+    alert(width)
 
     let height = document.createElement('p')
     height.textContent = b
     document.body.append(height)
+    alert(height)
+
 
     
 })
