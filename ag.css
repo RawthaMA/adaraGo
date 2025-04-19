@@ -320,14 +320,14 @@
     .check-row{
         margin-left: 5%;
         margin-top: -5px;
-        padding: 20px;
+        padding: 9px;
 
 
 
     }
     .check-heads{
         font-size: 16px;
-        padding: 9px;
+    padding: 30px;
 
 
     }
@@ -371,7 +371,7 @@
     }
     .checkout__form{
         margin-top: 15px;
-        height:430px;
+        height:630px;
 
     }
 .input-txt{
@@ -383,7 +383,7 @@
     }
     .check-heads{
         font-size: 16px;
-        padding: 15px;
+        padding: 20px;
     }
     .main-div{
         margin-left: -10px;
