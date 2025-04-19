@@ -34,3 +34,18 @@ back.addEventListener("click", function () {
 
     checkout_div.style.display = 'none'
 })
+let a =window.innerWidth
+let b =window.innerHeight
+let size = document.getElementById('size')
+size.addEventListener("click", function(){
+    let width = document.createElement('p')
+    width.textContent = a
+    document.body.append(width)
+
+    let height = document.createElement('p')
+    height.textContent = b
+    document.body.append(height)
+
+    
+})
+
