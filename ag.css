@@ -363,6 +363,7 @@
 @media screen and (min-width:1500px) {
     .head{
         font-size: 25px;
+        color: red;
     }
     .checkin__div {
         width: 53%;
