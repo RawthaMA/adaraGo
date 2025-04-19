@@ -30,7 +30,7 @@
 
 .checkout__box,
 .checkin__box {
-    background-color:  #ededfc;
+    background-color: #f2f6fc;
     width: 50%;
     height: 20%;
     border-radius: 15px;
@@ -104,6 +104,7 @@
 
 .checkin__div {
     margin: 5%;
+    margin-top: 30%;
     width: 90%;
     height: 80%;
     background-color:#f2f6fc;
