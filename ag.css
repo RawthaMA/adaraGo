@@ -132,8 +132,9 @@
 .input-txt{
     /* border: 1px solid cornflowerblue; */
     background-color: white;
-    border:1px cornflowerblue solid;    margin-top:5px;
-    border-radius: 7px;
+    border:1px cornflowerblue solid; 
+       margin-top:5px;
+    border-radius: 4px;
     width: 87%;
     padding: 5px;
     padding-left: 20px;
@@ -369,17 +370,17 @@
 @media screen and (min-width:1500px) {
     .head{
         font-size: 25px;
-        color: red;
-        margin-left:10%;
+        color:#2b2d54;
+        
     }
     .checkin__div {
-        width: 73%;
-        margin-top:20px;
+        width: 64%;
         height: 100%;
+        margin-left:20%;
     }
     .checkout__form{
         margin-top: 15px;
-        height:530px;
+        height:500px;
 
     }
 .input-txt{
