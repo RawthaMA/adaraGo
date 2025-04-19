@@ -242,9 +242,8 @@
         margin-left: 5%;
     }
     .checkin__div {
-        margin-top: 20%;
+        margin-top: 80px;
         border-radius: 10px;
-        margin: auto;
         width: 89%;
         height: 90%;
     }
@@ -271,7 +270,8 @@
     }
     .checkout__form{
         margin-top: 45px;
-        height:80%px;
+        border-radius: 10px;
+        height:550px;
 
     }
     .seacrch_btn-area{
