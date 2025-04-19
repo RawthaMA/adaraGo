@@ -39,7 +39,7 @@ let b =window.innerHeight
 let hw=document.querySelector('.size')
 let size = document.createElement('p')
 size.textContent = a
-hw.append(size)
+hw.append(size2)
 
 let size2 = document.createElement('p')
 size2.textContent = b

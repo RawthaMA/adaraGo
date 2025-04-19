@@ -299,17 +299,17 @@
 
 @media screen and (min-width:1000px) {
     .head{
-        padding-left: 32%;
+        padding-left: 38%;
         font-size: 20px;
-        color: blue;
+        color:#2b2d54;
 
     }
     .searcher{
         margin-left: 5%;
     }
     .checkin__div {
-        margin-top:-20px;
-        width: 70%;
+        margin-top:5px;
+        width: 80%;
         height: 100%;
     }
 
@@ -332,7 +332,7 @@
     }
     .check-heads{
         font-size: 16px;
-    padding: 27px;
+    padding: 22px;
 
 
     }
@@ -343,7 +343,7 @@
     }
     .checkout__form{
         margin-top: 15px;
-        height:600px;
+        height:525px;
 
     }
     .checkout__div {
@@ -369,6 +369,7 @@
     .head{
         font-size: 25px;
         color: red;
+        margin-left:10%;
     }
     .checkin__div {
         width: 73%;
